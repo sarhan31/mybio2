@@ -1,0 +1,164 @@
+#container {
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    background-image: url(SARHAN24.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-size: 30px;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(86, 86, 175);
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.gallery-container img {
+    border-radius: 10%;
+    height: 200px;
+    margin: 10px;
+} 
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: larger;
+    background-color: rgb(179, 174, 174);
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(86, 86, 175);
+}
+#box2{
+    text-shadow: 0 10px 30px black;}
+    #box3{
+       text-shadow: 0 10px 30px black;
+    }
+ 
+    #box4{
+       text-shadow: 0 10px 30px black;
+    }
+ #box5{
+    text-shadow: 0 10px 30px black;
+ }
+ #img2{
+    height: 400px;
+    width: 150px;
+ }
+ #S1{
+  
+
+    font-size: larger;
+    font-family:  "russo one", sans-serif;
+    text-wrap: nowrap;
+    overflow: hidden; 
+    text-align: center;
+    justify-content: center;
+    width: 70ch;
+    animation: typing 2s steps(20) forwards alternate;
+    color: black;
+     text-shadow: 0 10px 30px black;
+     text-shadow: 0 10px 30px black;
+     animation: typing 2s steps(20) forwards alternate;
+   text-wrap: nowrap;
+   overflow: hidden; 
+   width: 85ch;
+   
+
+     
+    
+ }
+ #box1{
+    animation: drop 2s linear forwards;
+    height: 300px;
+    margin-TOP: -100px;
+ }
+ 
+ @keyframes typing {
+    from {
+       width: 0ch;
+    }  
+ }
+ @keyframes drop {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    65% {
+        transform: translateY(-17px);
+        opacity: 1;
+    }
+    75% {
+        transform: translateY(-22px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+ }
+ #box1:hover {
+    text-decoration: none;
+    width: 400px;
+    transition: 3s ease-in-out;
+    -webkit-transition:3s ease-in-out ;
+    background-color: rgb(77, 73, 73);
+ 
+ }
+
+
