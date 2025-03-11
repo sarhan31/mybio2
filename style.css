@@ -84,6 +84,8 @@ button:hover {
     text-shadow: 0 10px 30px black;}
     #box3{
        text-shadow: 0 10px 30px black;
+       justify-content: center;
+       margin-left: 400px;
     }
  
     #box4{
