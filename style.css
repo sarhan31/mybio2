@@ -154,13 +154,13 @@ button:hover {
         opacity: 1;
     }
  }
- #box1:hover {
+ /* #box1:hover {
     text-decoration: none;
     width: 400px;
     transition: 3s ease-in-out;
     -webkit-transition:3s ease-in-out ;
     background-color: rgb(77, 73, 73);
  
- }
+ } */
 
 
