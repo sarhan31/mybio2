@@ -121,11 +121,11 @@ button:hover {
      
     
  }
- /* #box1{
-    animation: drop 2s linear forwards;
+  #box1{
+
     height: 300px;
     margin-TOP: -100px;
- } */
+ } 
  
  @keyframes typing {
     from {
