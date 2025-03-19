@@ -121,18 +121,18 @@ button:hover {
      
     
  }
- #box1{
+ /* #box1{
     animation: drop 2s linear forwards;
     height: 300px;
     margin-TOP: -100px;
- }
+ } */
  
  @keyframes typing {
     from {
        width: 0ch;
     }  
  }
- @keyframes drop {
+ /* @keyframes drop {
     0% {
         transform: translateY(-200px);
         opacity: 0;
@@ -153,7 +153,7 @@ button:hover {
         transform: translateY(0px);
         opacity: 1;
     }
- }
+ } */
  /* #box1:hover {
     text-decoration: none;
     width: 400px;
